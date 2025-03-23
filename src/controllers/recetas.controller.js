@@ -12,4 +12,16 @@ const obtenerRecetas = (req, res) => {
     res.json(resultados);
 };
 
-module.exports = { obtenerRecetas };
+const obtenerRecetaPorId = (req, res) => {
+    const id = parseInt(req.params.id);
+    const receta = recetas.find(r => r.id === id);
+
+    if (!receta) {
+        return res.status(404).json({ mensaje: "Receta no encontrada" });
+    }
+
+    res.json(receta);
+};
+
+
+module.exports = { obtenerRecetas, obtenerRecetaPorId };

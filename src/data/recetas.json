@@ -4,13 +4,68 @@
         "nombre": "Tortilla de Papas",
         "ingredientes": [
             { "nombre": "Papas", "cantidad": 3, "unidad": "unidades" },
-            { "nombre": "Huevos", "cantidad": 4, "unidad": "unidades" }
+            { "nombre": "Huevos", "cantidad": 4, "unidad": "unidades" },
+            { "nombre": "Sal", "cantidad": 1, "unidad": "pizca" },
+            { "nombre": "Aceite de oliva", "cantidad": 2, "unidad": "cucharadas" }
         ],
         "pasos": [
             "Pelar y cortar las papas en rodajas.",
             "Freír las papas hasta que estén doradas.",
             "Batir los huevos y mezclar con las papas.",
             "Cocinar en una sartén hasta que cuaje."
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Ensalada César",
+        "ingredientes": [
+            { "nombre": "Lechuga romana", "cantidad": 1, "unidad": "unidad" },
+            { "nombre": "Pechuga de pollo", "cantidad": 1, "unidad": "unidad" },
+            { "nombre": "Pan", "cantidad": 2, "unidad": "rebanadas" },
+            { "nombre": "Queso parmesano", "cantidad": 50, "unidad": "gramos" },
+            { "nombre": "Aderezo César", "cantidad": 3, "unidad": "cucharadas" }
+        ],
+        "pasos": [
+            "Lavar y trocear la lechuga.",
+            "Cocinar la pechuga de pollo y cortarla en tiras.",
+            "Tostar el pan y cortarlo en cubos.",
+            "Mezclar todos los ingredientes en un bol y agregar el aderezo."
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Pasta a la Boloñesa",
+        "ingredientes": [
+            { "nombre": "Pasta", "cantidad": 200, "unidad": "gramos" },
+            { "nombre": "Carne molida", "cantidad": 250, "unidad": "gramos" },
+            { "nombre": "Tomate", "cantidad": 2, "unidad": "unidades" },
+            { "nombre": "Cebolla", "cantidad": 1, "unidad": "unidad" },
+            { "nombre": "Ajo", "cantidad": 2, "unidad": "dientes" },
+            { "nombre": "Aceite de oliva", "cantidad": 2, "unidad": "cucharadas" }
+        ],
+        "pasos": [
+            "Cocinar la pasta en agua con sal.",
+            "Picar la cebolla y el ajo, y sofreírlos en aceite de oliva.",
+            "Añadir la carne molida y cocinar hasta que se dore.",
+            "Agregar los tomates picados y cocinar por 15 minutos.",
+            "Mezclar la salsa con la pasta y servir."
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Panqueques",
+        "ingredientes": [
+            { "nombre": "Harina", "cantidad": 200, "unidad": "gramos" },
+            { "nombre": "Leche", "cantidad": 250, "unidad": "mililitros" },
+            { "nombre": "Huevos", "cantidad": 2, "unidad": "unidades" },
+            { "nombre": "Azúcar", "cantidad": 1, "unidad": "cucharada" },
+            { "nombre": "Mantequilla", "cantidad": 1, "unidad": "cucharada" }
+        ],
+        "pasos": [
+            "Mezclar todos los ingredientes en un bol hasta obtener una masa homogénea.",
+            "Calentar una sartén con un poco de mantequilla.",
+            "Verter una porción de masa y cocinar por 1 minuto de cada lado.",
+            "Servir con miel, frutas o chocolate."
         ]
     }
 ]
