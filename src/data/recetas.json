@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tortilla de Papas",
+        "ingredientes": [
+            { "nombre": "Papas", "cantidad": 3, "unidad": "unidades" },
+            { "nombre": "Huevos", "cantidad": 4, "unidad": "unidades" }
+        ],
+        "pasos": [
+            "Pelar y cortar las papas en rodajas.",
+            "Freír las papas hasta que estén doradas.",
+            "Batir los huevos y mezclar con las papas.",
+            "Cocinar en una sartén hasta que cuaje."
+        ]
+    }
+]
